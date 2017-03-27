@@ -1,0 +1,102 @@
+body{
+  margin: 0.3%;
+  padding: 0.3%;
+    background-image: url(../images/qq.jpg);
+    background-repeat: no-repeat;
+
+
+}
+h1,h2,h3,h4,h5,h6,p{margin: 0;}
+header{
+
+  font-family: cursive;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 8px;
+  color:green;
+  background-image: url(../images/aa.png);
+
+}
+.logo{width: 10%;}
+.logo img{width: 100px; height: 75px;margin-left: 90px;}
+
+.first{
+  background: maroon;
+  border-radius: 8px;
+  background-image: url(../images/qq.jpg);
+
+}
+
+.first ul{
+  list-style: none;
+  display: flex;
+
+  border-radius: 8px
+
+}
+
+.first ul li{
+
+
+flex:1 1 0;
+}
+
+.first ul li a{
+  color: green;
+  text-decoration: none;
+font-family: serif;
+font-size: 18px:
+}
+
+.first  a:hover{
+  background: grey;
+    border-radius: 8px
+}
+.second{
+
+    font-size: 18px;
+    font-family: cursive;
+
+
+    color:black;
+    text-align:center;
+    float: center;
+    border-radius: 10px 0px 0px 10px;
+
+
+  }
+
+    footer{
+      background: grey;
+
+
+      font-family:sans-serif;
+      color:green;
+      border-radius:10px 10px 10px 10px;
+      margin-top: 325px;
+
+      text-align: center;
+        background-image: url(../images/aa.png);
+display:flex;
+justify-content: space-around;
+width:100%;
+
+
+    }
+    .flogo{width: 100%;
+      padding-left:1000px;
+
+    }
+    .flogo img{width: 100px; height: 75px;margin-right:90px;}
+
+    .copyright{width: 100%;}
+    .copyright p{margin: 2%;}
+    @media all and (max-width:800px){
+
+      footer{
+        flex-direction:column;
+      }
+      .first ul{
+        flex-direction: column;
+      }
+    }
