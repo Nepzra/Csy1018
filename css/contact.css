@@ -1,11 +1,10 @@
-form{
-  font-size: 23px;
-}
+
 input{
-  padding: 0.2em; border-radius: 7px; border: 1px  solid black;
+  padding: 10px; border-radius: 7px; border: 1px  solid green;
+
 }
 select{
-  width: 20%; padding: 0.2em; border-radius: 4px solid black;
+  width: 20%; padding: 0.2em; border-radius: 4px solid green;
 }
 submit{
   padding: 0.3em 0.2em; cursor :pointer;
@@ -17,4 +16,17 @@ submit:hover{
 }
 footer{
   margin-top: 0px;
+}
+legend{
+  font-size: 20px;
+  font-family: sans-serif;
+  color: yellow;
+  background-color: green;
+  padding: 10px;
+}
+label{
+  font-size: 20px;
+  font-family: sans-serif;
+  color: yellow;
+  background-color: green;
 }
