@@ -13,34 +13,10 @@ section{
   flex-flow: row;
 
 }
-.slogo{
-  width: 100%;
-}
-.slogo img{
-  width: 600px;
-  border-radius: 7%;
-  border-color: red;
-
-  height: 550px;
-  margin-top: 0px;
-  margin-left: 0px;
-
-}
 .second{
-  height: 675px;
+  height: 0px;
 
 }
-.bip img{
-  width: 250px;
-  height: 550px;
-  margin-top: 0px;
-  margin-left: 0px;
-}
-
-
-
-
-
 .second b {
   background: green; text-align: center;
   padding-right: 367px; padding-left: 400px;
@@ -122,12 +98,6 @@ font-size: 18px:
 
 
   }
-   img{
-    transition:width 2s;
-  }
-   img:hover{
-    width:150px;
-  }
 
     footer{
 
@@ -168,4 +138,39 @@ width:100%;
       .bip img{
         flex-direction: column;
       }
+    }
+    .cv{
+      display:flex;
+      justify-content: space-between;
+      flex:1 1 0;
+    }
+    .pf{
+      background: silver;
+      width: 14%;
+        text-align: center;
+
+    }
+    .edu{
+      background: silver;
+      width:39%;
+      text-align: center;
+    }
+    .skill{
+      background: silver;
+      width:24%;
+        text-align: center;
+    }
+    .cors{
+      background: silver;
+      width: 20%;
+        text-align: center;
+    }
+    .ct h2{
+      width:100%;
+      background-color: green;
+      text-align: center;
+      height: 50px;
+      font-display: block;
+      font-family: fantasy;
+      font-size: 25px;
     }
